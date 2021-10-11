@@ -1,0 +1,25 @@
+{
+  "type": "origins:resource",
+  "min": 0,
+  "max": 20,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 6
+  },
+  "max_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.ender_chest.open",
+        "volume": 100,
+        "pitch": 100
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:enchanted_hit ~ ~ ~ ~ ~ ~ 1 120"
+      }
+    ]
+  },
+  "hidden": true
+}

@@ -1,0 +1,11 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "ethereals:voiduseless"
+        }
+    },
+    "name": "Useless",
+    "description": "You can't seem to figure out how to use some things, like Long Ranged Weapons, Ender Pearls or Snowballs."
+}

@@ -1,0 +1,15 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "particle minecraft:soul ~ ~0.2 ~ 0 0 0 0 1 normal"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "ethereals:deathnulls",
+    "comparison": "==",
+    "compare_to": 1
+  },
+  "interval": 1
+}

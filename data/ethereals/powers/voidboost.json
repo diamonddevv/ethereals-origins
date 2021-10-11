@@ -1,0 +1,23 @@
+{
+    "type": "origins:launch",
+    "cooldown": 1200,
+    "hud_render": {
+        "bar_index": 4
+    },
+    "sound": "minecraft:entity.parrot.fly",
+    "speed": 8,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:height",
+        "comparison": "<=",
+        "compare_to": 10
+      }
+    },
+    "name": "Void Boost",
+    "description": "Once on the void's edge, you can focus energy into launching out again."
+}

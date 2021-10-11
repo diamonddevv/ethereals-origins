@@ -1,0 +1,20 @@
+{
+  "name": "Mining: Null",
+  "description": "If you have a Nullification value of 400 or more, you become slower at mining.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:mining_fatigue",
+    "amplifier": 1,
+    "duration": 2,
+    "show_icon": false
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "ethereals:nullify",
+    "comparison": ">=",
+    "compare_to": 400
+  }
+}

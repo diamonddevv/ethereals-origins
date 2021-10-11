@@ -1,0 +1,38 @@
+{
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 10,
+  "effects": [
+    {
+      "effect": "minecraft:levitation",
+      "duration": 2,
+      "amplifier": 4
+    },
+    {
+      "effect": "minecraft:regeneration",
+      "duration": 2,
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:slow_falling",
+      "duration": 2,
+      "amplifier": 9
+    },
+    {
+      "effect": "minecraft:speed",
+      "duration": 2,
+      "amplifier": 9
+    }
+  ],
+  "condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+      "type": "origins:height",
+      "comparison": "<=",
+      "compare_to": 1
+    }
+  },
+  "name": "Voidwalker",
+  "description": "The void will not accept you. You hover at its edge instead of falling in. In fact, this makes you have regeneration."
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Effect: Null",
+  "description": "You can null all effects, including positive ones, from your body at once as long as you are holding a feather. You can use this once every minute and This contributes to Nullification by 5 every clear of effects. [Use Key]",
+  "type": "origins:active_self",
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 9
+  },
+  "cooldown": 1200,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:clear_effect"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "ethereals:nullify",
+        "change": 5
+      }
+    ]
+  },
+  "key": {
+    "key": "key.use"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:feather"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:feather"
+          }
+        }
+      }
+    ]
+  }
+}

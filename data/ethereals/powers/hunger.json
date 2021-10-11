@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.0
+    },
+    "name": "Hunger",
+    "description": "You burn through food 3 times faster."
+}

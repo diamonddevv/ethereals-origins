@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"ethereals:nullify",
+		"ethereals:nullifying",
+		"ethereals:unnullify",
+		"ethereals:clearnullification",
+		"ethereals:gravitynull",
+		"ethereals:gravitynullreverse",
+		"ethereals:deathnull",
+		"ethereals:deathnulls",
+		"ethereals:resetdeathnull",
+		"ethereals:useddeathnullconstant",
+		"ethereals:effectnull",
+		"ethereals:walknull",
+		"ethereals:rangenull",
+		"ethereals:strengthnull",
+		"ethereals:defensenull",
+		"ethereals:minenull"
+	],
+	"icon": "minecraft:air",
+	"order": 8,
+	"impact": 3,
+	"name": "Null",
+	"description": "A species with powerful minds, capable of using natural energy to \"null\" things from their perception of existence, at the cost of their own."
+}

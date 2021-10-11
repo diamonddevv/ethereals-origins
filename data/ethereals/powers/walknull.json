@@ -1,0 +1,34 @@
+{
+  "name": "Walk: Null",
+  "description": "If you hold a Phantom's Membrane, you gain the ability to glide through without needing to equip Elytra!",
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:phantom_membrane"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:phantom_membrane"
+          }
+        }
+      },
+      {
+        "type": "origins:fall_flying"
+      }
+    ]
+  }
+}

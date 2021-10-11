@@ -1,0 +1,17 @@
+{
+  "name": "Range: Null",
+  "description": "If you have a Nullification value of 100 or more, you cannot use ranged weapons.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "ethereals:rangenullaffected"
+        }
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "ethereals:nullify",
+      "comparison": ">=",
+      "compare_to": 100
+    }
+}

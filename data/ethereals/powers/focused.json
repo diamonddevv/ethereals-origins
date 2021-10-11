@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "multiply_total",
+    "value": -0.20
+  },
+  "name": "Focused",
+  "description": "You have 4 HP less, a total of 8 hearts, due to your immense focus."
+}

@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "effect": "minecraft:strength",
+      "amplifier": 14,
+      "duration": 20
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "ethereals:voidhits",
+      "comparison": "==",
+      "compare_to": 20
+    },
+    "name": "Voidhit",
+    "description": "After every 20 hits, you focus energy into dealing a single super-strong attack, that inflicts slowness and weakness."
+  }

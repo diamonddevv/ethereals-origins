@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"ethereals:voidwalker",
+		"ethereals:voidboost",
+		"ethereals:lowg",
+		"ethereals:voidhit",
+		"ethereals:voidhits",
+		"ethereals:voidhitcheck",
+		"ethereals:aftereffects",
+		"ethereals:hiteffect",
+		"ethereals:focused",
+		"ethereals:hunger",
+		"ethereals:useless"
+	],
+	"icon": "minecraft:ender_eye",
+	"order": 10,
+	"impact": 2,
+	"name": "Voidbringer",
+	"description": "Beings of the below, this species discovered how to live at the void. They are a bit useless with some things, but they find their way at being a lethal opponent."
+}

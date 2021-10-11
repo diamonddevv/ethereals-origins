@@ -1,0 +1,46 @@
+{
+  "name": "Gravity: Null",
+  "description": "You can null Gravity for a short time, by holding a Shulkers Shell and Sneaking. Holding one without sneaking gives Slow Falling.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:levitation",
+    "amplifier": 2,
+    "duration": 1
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:shulker_shell"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:shulker_shell"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

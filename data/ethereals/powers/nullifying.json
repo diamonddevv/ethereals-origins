@@ -1,0 +1,27 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "ethereals:nullify",
+    "change": 1
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "ethereals:gravitynull"
+        },
+        {
+          "type": "origins:power_active",
+          "power": "ethereals:gravitynullreverse"
+        },
+        {
+          "type": "origins:power_active",
+          "power": "ethereals:walknull"
+        }
+      ]
+    }
+  }

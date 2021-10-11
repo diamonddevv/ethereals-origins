@@ -1,0 +1,51 @@
+{
+  "name": "Unnullify",
+  "description": "You can consume entire Diamonds to clear some Nullification. One Diamond equals 20 less Nullification Points.",
+  "type": "origins:active_self",
+  "cooldown": 1,
+  "key": {
+    "key": "key.use"
+  },
+  "hud_render": {
+    "should_render": false
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:diamond"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:diamond"
+          }
+        }
+      }
+    ]
+  },
+  "entity_action": {
+    "type":"origins:and",
+    "actions": [
+    {
+      "type": "origins:execute_command",
+      "command": "clear @s diamond 1"
+    },
+    {
+      "type":"origins:change_resource",
+      "resource": "ethereals:nullify",
+      "change": -20
+    }
+  ]
+  }
+}
