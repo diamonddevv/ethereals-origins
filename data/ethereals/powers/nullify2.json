@@ -1,0 +1,42 @@
+{
+  "name": "Nullification",
+  "description": "Using your powers too much will cause the atoms in your body to rip apart, killing you. Every second a power is used, the value goes up by One. Because you have advanced, you can now nullify One Thousand times before you end.",
+  "type": "origins:resource",
+  "min": 0,
+  "max": 1000,
+  "max_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:damage",
+        "amount": 10000,
+        "source": {
+          "name": "magic"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 5,
+        "action": {
+          "type": "origins:damage",
+          "amount": 10000,
+          "source": {
+            "name": "magic"
+        }
+      }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1,
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "ethereals:nullify",
+          "change": -1000
+        }
+      }
+    ]
+  },
+  "hud_render": {
+    "bar_index": 8
+  }
+}

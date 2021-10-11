@@ -21,5 +21,12 @@
 	"order": 8,
 	"impact": 3,
 	"name": "Null",
-	"description": "A species with powerful minds, capable of using natural energy to \"null\" things from their perception of existence, at the cost of their own."
+	"description": "A species with powerful minds, capable of using natural energy to \"null\" things from their perception of existence, at the cost of their own. This doesn't feel like your final form, though.. Maybe I should try and defeat a  powerful opponent.",
+	"upgrades": [
+	  {
+	    "condition": "minecraft:nether/summon_wither"
+	    "origin": "ethereals:stage2null"
+	    "announcement": "Yes! My final form! I did it! Better check my powers again.."
+	  }
+	]
 }

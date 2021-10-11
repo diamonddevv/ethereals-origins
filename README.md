@@ -1,4 +1,4 @@
-# ethereals-origins
+# Ethereals Origins
 The Official Repository for the Ethereals Origins Project, by Diamondboy
 
 # Dependencies
