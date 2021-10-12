@@ -1,0 +1,11 @@
+{
+  "name": "Sky Born",
+  "description": "Your species cannot live on the ground, your legs won't let you stand on it. You will take massive damage while on the ground.",
+  "type": "origins:damage_over_time",
+  "interval": 20,
+  "damage": 4,
+  "damage_easy": 2,
+  "damage_source": {
+    "name": "generic"
+  }
+}

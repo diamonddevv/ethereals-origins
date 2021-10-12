@@ -1,0 +1,9 @@
+{
+  "name": "Sky Swimmer",
+  "description": "You manipulate the winds to allow you to swim through the air."
+  "type": "origins:swimming",
+  "condition": {
+    "type": "origins:on_block",
+    "inverted": true
+  }
+}

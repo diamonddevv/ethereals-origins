@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"ethereals:airswim",
+		"ethereals:stayinair",
+		"ethereals:noground",
+		"ethereals:windblast",
+		"ethereals:skykinsupport"
+	],
+	"icon": "minecraft:white_dye",
+	"order": 0,
+	"impact": 0,
+	"name": "Skykin",
+	"description": "Born of the skies, this Species have never been able to live on the ground. They adapted to manipulate the wind to keep them in the air."
+}

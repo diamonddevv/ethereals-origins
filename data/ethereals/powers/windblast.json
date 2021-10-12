@@ -1,0 +1,39 @@
+{
+  "name": "Windblast",
+  "description": "You can blast your opponents with a powerful gust of air that travels 25 blocks. This blast can also explode blocks. [Primary]",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "ope:raycast",
+    "distance": 25,
+    "block_action": {
+      "type": "origins:execute_command",
+      "command": "summon tnt ~ ~ ~ {Fuse:1b}"
+    },
+    "target_action": {
+      "type": "origins:damage",
+      "amount": 6
+    },
+    "self_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+         "type": "origins:play_sound",
+         "sound": "entity.shulker.shoot",
+         "volume": 100,
+         "pitch": 50
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:endrod ~ ~-1 ~ 0 0 0 5 10 force"
+        }
+      ]
+    }
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "bar_index": 8
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  }
+}

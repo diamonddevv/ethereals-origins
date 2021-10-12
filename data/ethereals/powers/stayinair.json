@@ -1,0 +1,13 @@
+{
+  "name": "Hover",
+  "description": "You will never fall, because the wind keeps you up"
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effect": {
+    "effect": "minecraft:levitation",
+    "amplifier": -1,
+    "duration": 20
+  }
+}
