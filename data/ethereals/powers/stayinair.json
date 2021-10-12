@@ -1,6 +1,6 @@
 {
   "name": "Hover",
-  "description": "You will never fall, because the wind keeps you up"
+  "description": "You will never fall, because the wind keeps you up",
   "type": "origins:stacking_status_effect",
   "min_stacks": 1,
   "max_stacks": 1,

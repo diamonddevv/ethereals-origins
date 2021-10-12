@@ -1,6 +1,6 @@
 {
   "name": "Wind's Support",
-  "description": "You can support allies by creating a cloud of healing gas around you. [Secondary]"
+  "description": "You can support allies by creating a cloud of healing gas around you. [Secondary]",
   "type": "origins:active_self",
   "entity_action": {
     "type": "ope:area_of_effect",
