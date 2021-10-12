@@ -1,0 +1,12 @@
+{
+  "name": "Susceptible",
+  "description": "You aren't very good at taking long-range hits. You take 1.5x more projectile damage.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:projectile"
+  },
+  "modifier": {
+    "name": "1.5x Projectile Damage",
+    "operation": "multiply_base"
+  }
+}

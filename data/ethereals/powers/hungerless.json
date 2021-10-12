@@ -1,0 +1,10 @@
+ {
+   "name": "Exhaustless",
+   "description": "Your Species has no need to eat.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "No exhaustion",
+        "operation": "multiply_base",
+        "value": 0
+    }
+}

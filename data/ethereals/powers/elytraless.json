@@ -1,0 +1,11 @@
+{
+  "name": "Elytraless",
+  "description": "You have no need for Elytra. therefore you cannot equip it."
+  "type": "origins:restrict_armor",
+  "chest": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:elytra"
+    }
+  }
+}

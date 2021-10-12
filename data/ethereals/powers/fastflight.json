@@ -1,0 +1,10 @@
+{
+  "name": "Fast Flight",
+  "description": "You can fly through the sky fast.",
+  "type": "origins:modify_swim_speed",
+  "modifier": {
+    "name": "Fast Swim Speeds",
+    "operation": "multiply_total",
+    "value": 2
+  }
+}
