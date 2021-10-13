@@ -7,6 +7,7 @@
   },
   "modifier": {
     "name": "1.5x Projectile Damage",
-    "operation": "multiply_base"
+    "operation": "multiply_base",
+    "value": 1.5
   }
 }

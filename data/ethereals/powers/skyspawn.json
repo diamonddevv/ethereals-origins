@@ -7,10 +7,5 @@
         "command": "tp @s ~ ~50 ~",
         "permission_level": 4
     },
-    "entity_action_respawned": {
-        "type": "origins:execute_command",
-        "command": "tp @s ~ ~50 ~",
-        "permission_level": 4
-    },
     "execute_chosen_when_orb": true
 }

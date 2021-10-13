@@ -1,6 +1,6 @@
  {
    "name": "Exhaustless",
-   "description": "Your Species has no need to eat.",
+   "description": "Your species doesn't get hungry!",
     "type": "origins:modify_exhaustion",
     "modifier": {
         "name": "No exhaustion",

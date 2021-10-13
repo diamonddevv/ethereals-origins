@@ -14,3 +14,6 @@ https://www.github.com/diamondboy4005/ethereals-origins
 # Credits
 > Diamondboy
 - Coding, Ideas
+
+> Ashlink/Kaeg
+- Skykin; Came up with some ideas

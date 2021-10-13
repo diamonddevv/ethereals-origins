@@ -11,7 +11,7 @@
           "type": "origins:apply_effect",
           "effects": [
             {
-              "effect": "minecraft: slowness",
+              "effect": "minecraft:slowness",
               "duration": 60,
               "amplifier": 99
             },

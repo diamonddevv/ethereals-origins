@@ -1,6 +1,6 @@
 {
   "name": "Wind's Support",
-  "description": "You can support allies by creating a cloud of healing gas around you. [Secondary]",
+  "description": "You can support allies by giving anything around you a regeneration effect. [Secondary]",
   "type": "origins:active_self",
   "entity_action": {
     "type": "ope:area_of_effect",
@@ -9,7 +9,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:regeneration",
-        "duration": 20,
+        "duration": 100,
         "amplifier": 2
       }
     }

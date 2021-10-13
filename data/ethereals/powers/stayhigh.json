@@ -1,0 +1,27 @@
+{
+  "name": "Heights",
+  "description": "If you go below an altitude of 60 blocks, you'll gain a strong debuff.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 7,
+      "duration": 20
+    },
+    {
+      "effect": "minecraft:poison",
+      "duration": 20
+    }
+  ],
+  "condition": {
+    "type": "origins:in_block_anywhere",
+    "block_condition": {
+      "type": "origins:height",
+      "comparison": "<=",
+      "compare_to": 60
+    }
+  }
+}

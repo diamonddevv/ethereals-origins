@@ -6,14 +6,13 @@
 		"ethereals:skykinsupport",
 		"ethereals:fastflight",
 		"ethereals:hungerless",
-		"ethereals:ignorewater",
 		"ethereals:skyspawn",
 		"ethereals:elytraless",
 		"ethereals:lowerhealth",
 		"ethereals:susceptible",
-		"ethereals:noground",
+		"ethereals:stayhigh",
 		"ethereals:thinair",
-		"ethereals:sky_sleeper"
+		"ethereals:skysleep"
 	],
 	"icon": "minecraft:white_dye",
 	"order": 6,
