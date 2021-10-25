@@ -1,0 +1,11 @@
+{
+	"powers": [
+    "ethereals:fireaspect",
+    "ethereals:moregold"
+	],
+	"icon": "minecraft:netherrack",
+	"order": 2,
+	"impact": 0,
+	"name": "Netherologist",
+	"description": "Netherologists are particulary strong in the Nether. They research the conditions there and use it to their advantage."
+}

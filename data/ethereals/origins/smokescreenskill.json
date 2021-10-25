@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "ethereals:smokescreen"
+  ],
+  "icon": "minecraft:firework_star",
+  "order": 0,
+  "impact": 0,
+  "name": "Smokescreen",
+  "description": "You are skilled in creating smokescreens to hide behind!"
+}

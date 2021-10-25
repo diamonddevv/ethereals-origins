@@ -1,0 +1,25 @@
+{
+  "name": "Combo",
+  "description": "You have learnt that building up a combo on your foes will grant you the upper hand.",
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "ethereals:comboes",
+          "change": 1
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.blaze.hurt",
+          "volume": 100,
+          "pitch": 150
+        }
+      ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}

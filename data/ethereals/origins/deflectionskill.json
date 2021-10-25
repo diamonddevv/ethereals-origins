@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "ethereals:deflectpower"
+  ],
+  "icon": "minecraft:shield",
+  "order": 0,
+  "impact": 0,
+  "name": "Deflection",
+  "description": "You are skilled in deflecting attacks."
+}

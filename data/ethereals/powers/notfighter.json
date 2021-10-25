@@ -1,0 +1,10 @@
+{
+  "name": "Unfightly",
+  "description": "You are the line of Defense, so you aren't the best fighter. You deal half the usual damage.",
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "name": "0.5x damage dealt",
+    "operation": "multiply_base",
+    "value": 0.5
+  }
+}

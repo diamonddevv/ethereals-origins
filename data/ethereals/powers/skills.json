@@ -1,0 +1,5 @@
+{
+  "name": "Skills",
+  "description": "Every Warling also has a Skill. These Skills give them certain special abilities, and are genereally the Secondary Ability. Some may also be available to only certain Paths.",
+  "type": "origins:simple"
+}

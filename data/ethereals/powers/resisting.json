@@ -1,0 +1,10 @@
+{
+  "name": "Resisting",
+  "description": "You are Strong-Skinned. You take half damage from all sources.",
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "0.5x damage taken",
+    "operation": "multiply_base",
+    "value": 0.5
+  }
+}

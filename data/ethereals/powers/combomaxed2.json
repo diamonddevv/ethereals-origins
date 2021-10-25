@@ -1,0 +1,33 @@
+{
+    "hidden": true,
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:delay",
+          "ticks": 3,
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "ethereals:comboes",
+            "change": -10
+          }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.blaze.hurt",
+          "volume": 100
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "ethereals:comboes",
+      "comparison": "==",
+      "compare_to": 10
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}

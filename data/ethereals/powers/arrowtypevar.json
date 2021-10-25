@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "type": "origins:resource",
+  "min": 0,
+  "max": 6,
+  "hud_render": {
+    "bar_index": 9
+  }
+}

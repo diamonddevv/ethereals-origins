@@ -1,0 +1,11 @@
+{
+	"powers": [
+    "ethereals:proficiency",
+    "ethereals:xp"
+	],
+	"icon": "minecraft:enchanted_book",
+	"order": 6,
+	"impact": 0,
+	"name": "Magician",
+	"description": "Magicians are responible for discovering the magic in this world."
+}

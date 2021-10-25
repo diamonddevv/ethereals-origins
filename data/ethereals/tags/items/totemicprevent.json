@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:ender_pearl",
+    "minecraft:snowball",
+    "minecraft:shield",
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:trident"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "Gentle Treatment",
-  "description": "Your species are generally nonviolent, so you struggle to take a hit. You have half the usual max health",
+  "description": "Your species are generally nonviolent, so you struggle to take a hit. You have half the usual max health.",
   "type": "origins:attribute",
   "modifier": {
     "attribute": "generic.max_health",

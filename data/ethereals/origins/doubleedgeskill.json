@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "ethereals:doubleedgedsword"
+  ],
+  "icon": "minecraft:iron_sword",
+  "order": 0,
+  "impact": 0,
+  "name": "Double-Edged Blade",
+  "description": "Your skill uses the edges of your blade and causes you to become stronger, however take more damage for 10 seconds."
+}

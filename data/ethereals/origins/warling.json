@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"ethereals:paths",
+		"ethereals:skills"
+	],
+	"icon": "minecraft:music_disc_11",
+	"order": 4,
+	"impact": 3,
+	"unchoosable": false,
+	"name": "Warling",
+	"description": "This species is.. different. A Warling provides no Buffs or Debuffs on its own. It must have a Path and a Skill. These determine a Warlings Capabilities. Never underestimate or prejudge a Warling."
+}

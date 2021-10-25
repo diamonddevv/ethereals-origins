@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "ethereals:joust",
+    "ethereals:fasterswings",
+    "ethereals:stronger",
+    "ethereals:combo",
+    "ethereals:combomaxed",
+    "ethereals:combomaxed2",
+    "ethereals:comboes",
+    "ethereals:losecombo",
+    "ethereals:noshield",
+    "ethereals:rangeddown",
+    "ethereals:rangedamageup"
+  ],
+  "icon": "minecraft:iron_sword",
+  "order": 0,
+  "impact": 0,
+  "name": "Warrior",
+  "description": "This path will grant you the skill and swift of a Warrior. Warriors excel in close-up combat, with a further speciality using a sword."
+}

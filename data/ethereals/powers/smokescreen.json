@@ -1,0 +1,16 @@
+{
+  "name": "Place Smokescreen",
+  "description": "You can create a thick Smokescreen at your location every minute! [Secondary]",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function ethereals:powers/smokescreen"
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "bar_index": 9
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Fire Aspect",
+    "description": "You can naturally set your opponents on fire by hitting them! This has a cooldown of 10 seconds.",
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+      "type": "origins:set_on_fire",
+      "duration": 5
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": false
+    }
+}

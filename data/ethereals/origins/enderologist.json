@@ -1,0 +1,11 @@
+{
+	"powers": [
+    "ethereals:betterchorus",
+    "ethereals:enderprot"
+	],
+	"icon": "minecraft:end_stone",
+	"order": 3,
+	"impact": 0,
+	"name": "Enderologist",
+	"description": "Enderologists are particulary interested in the End and its resources & properties. In fact, they know how to use this to their advantage."
+}

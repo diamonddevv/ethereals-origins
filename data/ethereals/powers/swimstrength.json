@@ -1,0 +1,13 @@
+{
+  "name": "Bruting",
+  "description": "You deal twice as much damage from swimming in the sky.",
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:swimming"
+    },
+    "modifier": {
+        "name": "Extra damage when swimming",
+        "operation": "multiply_total",
+        "value": 2.0
+    }
+}

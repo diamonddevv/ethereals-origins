@@ -1,0 +1,11 @@
+{
+  "name": "Healthy",
+  "description": "Your training in taking hits has caused you to gain double the usual max health!",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "2x max health",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "multiply_total",
+    "value": 1
+  }
+}

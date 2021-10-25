@@ -1,6 +1,6 @@
 {
   "name": "Unnullify",
-  "description": "You can consume entire Diamonds to clear some Nullification. One Diamond equals 20 less Nullification Points.",
+  "description": "You can consume entire Diamonds to clear some Nullification. One Diamond equals 15 less Nullification Points.",
   "type": "origins:active_self",
   "cooldown": 1,
   "key": {
@@ -44,7 +44,7 @@
     {
       "type":"origins:change_resource",
       "resource": "ethereals:nullify",
-      "change": -20
+      "change": -15
     }
   ]
   }

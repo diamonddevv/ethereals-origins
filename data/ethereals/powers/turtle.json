@@ -1,0 +1,32 @@
+{
+  "name": "Turtling",
+  "description": "You can temporarily make yourself invincible, at the cost of being inable to move or see. [Secondary]",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "amplifier": 250
+      },
+      {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "amplifier": 250
+      },
+      {
+        "effect": "minecraft:blindness",
+        "duration": 100,
+        "amplifier": 250
+      }
+    ]
+  },
+  "cooldown": 1800,
+  "hud_render": {
+    "bar_index": 9
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

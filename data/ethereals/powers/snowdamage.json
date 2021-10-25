@@ -1,0 +1,15 @@
+{
+  "name": "Snowball Damage",
+  "description": "You take heavy damage from snowballs.",
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Snowball damage taken like Blazes",
+    "value": 3,
+    "operation": "addition"
+  },
+  "cooldown": 1,
+  "damage_condition": {
+    "type": "origins:projectile",
+    "projectile": "minecraft:snowball"
+  }
+}

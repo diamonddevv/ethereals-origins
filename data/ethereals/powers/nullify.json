@@ -3,7 +3,7 @@
   "description": "Using your powers too much will cause the atoms in your body to rip apart, killing you. Every second a power is used, the value goes up by One. The max value is Five Hundred.",
   "type": "origins:resource",
   "min": 0,
-  "max": 500,
+  "max": 300,
   "max_action": {
     "type": "origins:and",
     "actions": [
@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:delay",
-        "ticks": 5,
+        "ticks": 20,
         "action": {
           "type": "origins:damage",
           "amount": 10000,
@@ -31,7 +31,7 @@
         "action": {
           "type": "origins:change_resource",
           "resource": "ethereals:nullify",
-          "change": -500
+          "change": -300
         }
       }
     ]

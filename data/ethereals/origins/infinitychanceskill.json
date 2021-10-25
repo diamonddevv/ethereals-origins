@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "ethereals:infinitychancepower"
+  ],
+  "icon": "minecraft:arrow",
+  "order": 0,
+  "impact": 0,
+  "name": "Infinity Chance",
+  "description": "You are skilled in conserving arrows!"
+}

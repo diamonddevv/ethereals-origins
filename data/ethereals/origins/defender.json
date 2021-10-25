@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "ethereals:doublehealth",
+    "ethereals:resisting",
+    "ethereals:shieldstance",
+    "ethereals:norange",
+    "ethereals:notfighter"
+  ],
+  "icon": "minecraft:shield",
+  "order": 0,
+  "impact": 0,
+  "name": "Defender",
+  "description": "This path will grant you the stone-hard resistance of a Defender. Defenders are the protectors in a fight, the ones that cover the weaker. They excel in taking hits, but not in inflicting them."
+}

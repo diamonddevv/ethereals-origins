@@ -1,0 +1,49 @@
+{
+  "order": 3,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "ethereals:warling"
+      },
+      "origins": [
+        "ethereals:marineskill",
+        "ethereals:turtleskill"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "layer": "ethereals:path",
+        "origin": "ethereals:warrior"
+      },
+      "origins": [
+        "ethereals:doubleedgeskill",
+        "ethereals:smokescreenskill"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "layer": "ethereals:path",
+        "origin": "ethereals:defender"
+      },
+      "origins": [
+        "ethereals:deflectionskill"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "layer": "ethereals:path",
+        "origin": "ethereals:archer"
+      },
+      "origins": [
+        "ethereals:infinitychanceskill"
+      ]
+    }
+  ],
+  "name": "Skill",
+  "missing_name": "Unskilled",
+  "missing_description": "You do not have a skill."
+}

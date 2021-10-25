@@ -44,7 +44,7 @@
     {
       "type":"origins:change_resource",
       "resource": "ethereals:nullify",
-      "change": -500
+      "change": -300
     }
   ]
   }

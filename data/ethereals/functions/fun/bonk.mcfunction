@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Bonk","color":"gold","bold":true,"italic":true}',Lore:['{"text":"Destroyer of Skulls","color":"dark_purple","bold":true,"underlined":true}']},Enchantments:[{id:"minecraft:sharpness",lvl:1000s}]} 1

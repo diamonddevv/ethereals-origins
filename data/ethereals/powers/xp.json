@@ -1,0 +1,9 @@
+{
+  "name": "Experienced",
+  "description": "Your Experience with Enchantments means you naturally gain 2x more experience.",
+  "type": "origins:modify_xp_gain",
+  "modifier": {
+      "operation": "multiply_base",
+      "value": 2.0
+  }
+}

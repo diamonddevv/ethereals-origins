@@ -1,0 +1,55 @@
+{
+  "name": "Joust",
+  "description": "You can thrust your blade forward, launching you forward. You also obtain a short burst of strength. You must be holding any sword for this attack. [Use]",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "duration": 60,
+          "amplifier": 2
+        }
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": 0.8,
+        "space": "local"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "ethereals:swords"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "ethereals:swords"
+          }
+        }
+      }
+    ]
+  },
+  "cooldown": 100,
+  "hud_render": {
+    "bar_index": 1
+  },
+  "key": {
+    "key": "key.use"
+  }
+}

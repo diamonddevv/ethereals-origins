@@ -1,0 +1,5 @@
+{
+  "name": "Paths",
+  "description": "Every Warling has a Path. These Paths determine the role they play in a Team. Some may be Brutal Warriors, some may be Protective Defenders.",
+  "type": "origins:simple"
+}

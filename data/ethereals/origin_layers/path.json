@@ -1,0 +1,19 @@
+{
+  "order": 2,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "ethereals:warling"
+      },
+      "origins": [
+        "ethereals:warrior",
+        "ethereals:defender",
+        "ethereals:archer"
+      ]
+    }
+  ],
+  "name": "Path",
+  "missing_name": "Pathless",
+  "missing_description": "You do not have a path."
+}

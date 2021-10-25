@@ -1,0 +1,19 @@
+{
+  "name": "Launching Arrow",
+  "description": "You have a Launching Arrow Mode!",
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "y": 1
+  },
+  "cooldown": 1,
+  "damage_condition": {
+    "type": "origins:projectile"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "ethereals:arrowtypevar",
+    "comparison": "==",
+    "compare_to": 1
+    }
+}

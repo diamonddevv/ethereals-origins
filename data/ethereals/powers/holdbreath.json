@@ -1,0 +1,19 @@
+{
+  "name": "Air Capacity",
+  "description": "You have the skill of being able to hold your breath for a long time!",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "effect": {
+      "effect": "minecraft:water_breathing",
+      "amplifier": 4,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+}

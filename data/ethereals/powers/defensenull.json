@@ -1,15 +1,15 @@
 {
   "name": "Defense: Null",
-  "description": "If you have a Nullification value of 300 or more, you take 2 times more damage.",
+  "description": "If you have a Nullification value of 225 or more, you take far more damage.",
   "type": "origins:modify_damage_taken",
   "modifier": {
       "operation": "multiply_base",
-      "value": 1
+      "value": 1.5
   },
   "condition": {
     "type": "origins:resource",
     "resource": "ethereals:nullify",
     "comparison": ">=",
-    "compare_to": 300
+    "compare_to": 225
   }
 }

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "ethereals:holdbreath"
+  ],
+  "icon": "minecraft:glass_bottle",
+  "order": 0,
+  "impact": 0,
+  "name": "Marine Skills",
+  "description": "You are skilled in being Underwater. You can hold your breath for significantly longer than most."
+}

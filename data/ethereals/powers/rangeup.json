@@ -1,0 +1,13 @@
+{
+  "name": "Shooter of the Skies",
+  "description": "You are best suited to ranged attacks. You deal 2 times more projectile damage.",
+  "type": "origins:modify_damage_dealt",
+  "modifier":{
+    "name": "extra damage from projectiles",
+    "operation": "multiply_total",
+    "value": 2
+  },
+  "damage_condition": {
+    "type": "origins:projectile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Enchantment Proficiency",
+  "description": "Due to your knowledge of Enchantments, you naturally get an extra level of Sharpness, Efficiency, and Mending on all your tools.",
+  "type": "origins:multiple",
+  "mending": {
+    "type": "ope:modify_enchantment_level",
+    "enchantment": "minecraft:mending",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "sharpness": {
+    "type": "ope:modify_enchantment_level",
+    "enchantment": "minecraft:sharpness",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    },
+    "efficiency": {
+      "type": "ope:modify_enchantment_level",
+      "enchantment": "minecraft:efficiency",
+      "modifier": {
+        "operation": "addition",
+        "value": 1
+      }
+    }
+  }
+}

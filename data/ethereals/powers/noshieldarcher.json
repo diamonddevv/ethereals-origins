@@ -1,0 +1,11 @@
+{
+  "name": "Unwieldy",
+  "description": "Shields block your aim. You cannot use them.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:shield"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "ethereals:arrowtypevar",
+    "ethereals:arrowscroll",
+    "ethereals:launcharrow",
+    "ethereals:witherarrow",
+    "ethereals:flamearrow",
+    "ethereals:explosivearrow",
+    "ethereals:healarrow",
+    "ethereals:lightningarrow",
+    "ethereals:moreprojdamage",
+    "ethereals:snowdamage",
+    "ethereals:noshieldarcher",
+    "ethereals:bowonly"
+  ],
+  "icon": "minecraft:bow",
+  "order": 0,
+  "impact": 0,
+  "name": "Archer",
+  "description": "This path grants you the Eagle Eye and incredible aim of an Archer. Archers are the back line - they attack from a great range."
+}

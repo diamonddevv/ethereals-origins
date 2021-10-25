@@ -1,0 +1,18 @@
+{
+  "name": "Infinity Chance",
+  "description": "There is a chance you will gain an extra arrow when hitting an entity with an arrow!",
+  "type": "origins:self_action_on_hit",
+  "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.25,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "give @s arrow"
+      }
+  },
+  "cooldown": 100,
+  "damage_condition": {
+    "type": "origins:projectile",
+    "projectile": "minecraft:arrow"
+  }
+}

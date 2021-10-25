@@ -1,0 +1,13 @@
+{
+  "name": "Melee Master",
+  "description": "You are best suited to Melee, so you deal half the usual projectile damage.",
+  "type": "origins:modify_damage_dealt",
+  "modifier":{
+    "name": "extra damage from projectiles",
+    "operation": "multiply_base",
+    "value": 0.5
+  },
+  "damage_condition": {
+    "type": "origins:projectile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "ethereals:manacount",
+    "change": 15
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "==",
+    "compare_to": 0
+  }
+}

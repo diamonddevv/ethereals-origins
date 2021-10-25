@@ -1,0 +1,10 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "ethereals:comboes",
+        "change": -1
+    },
+    "interval": 40
+}

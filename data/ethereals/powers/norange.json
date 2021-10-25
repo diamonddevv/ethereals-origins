@@ -1,0 +1,11 @@
+{
+  "name": "Unranged",
+  "description": "You are incapable of ranged combat. You cannot use Tridents, Bows or Crossbows.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "ethereals:defendernouse"
+        }
+    }
+}

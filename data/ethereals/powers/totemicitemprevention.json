@@ -1,0 +1,11 @@
+{
+  "name": "Magic and Mayhem",
+  "description": "You cannot use a wide variety of items, including Potions, Ender Pearls, and Ranged Weapons. They do not work correctly for you.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "ethereals:totemicprevent"
+    }
+  }
+}

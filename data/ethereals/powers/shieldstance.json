@@ -1,0 +1,49 @@
+{
+  "name": "Shield Stance",
+  "description": "When you block with a shield, you sometimes gain a short, strong resistance effect.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:chance",
+    "chance": 0.25,
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "amplifier": 4
+      }
+    }
+  },
+  "cooldown": 60,
+  "hud_render": {
+    "should_render": false
+  },
+  "key": {
+    "key": "key.use"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:shield"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:shield"
+          }
+        }
+      }
+    ]
+  }
+}

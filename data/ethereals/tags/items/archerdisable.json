@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:trident",
+    "minecraft:crossbow",
+    "minecraft:ender_pearl"
+  ]
+}

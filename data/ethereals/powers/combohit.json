@@ -1,0 +1,56 @@
+{
+  "name": "Underdog: Null",
+  "description": "You can do an attack that will throw your opponent into the air and deal a large amount of damage every minute. This will nullify you by 15 every hit. You must be holding an Iron Ingot.",
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": 2
+      },
+      {
+        "type": "origins:damage",
+        "amount": 12,
+        "source": {
+          "name": "generic"
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "ethereals:nullify",
+        "change": 15
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          }
+        }
+      }
+    ]
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 1
+  }
+}

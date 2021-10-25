@@ -1,0 +1,19 @@
+{
+  "name": "Explosive Arrow",
+  "description": "You have an Explosive Arrow Type!",
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function ethereals:powers/explosion"
+  },
+  "cooldown": 100,
+  "damage_condition": {
+    "type": "origins:projectile"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "ethereals:arrowtypevar",
+    "comparison": "==",
+    "compare_to": 4
+    }
+}

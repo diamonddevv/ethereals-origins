@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "ethereals:turtle"
+  ],
+  "icon": "minecraft:scute",
+  "order": 0,
+  "impact": 0,
+  "name": "Turtlelike",
+  "description": "You are skilled in recovery."
+}

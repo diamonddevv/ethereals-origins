@@ -1,6 +1,6 @@
 {
   "name": "Sky Sleeper",
-  "description": "You can only sleep once at an elevation of 100 blocks or higher. Furthermore, the bed needs to be exposed to the sky.",
+  "description": "You can only sleep at an elevation of 100 blocks or higher. Furthermore, the bed needs to be exposed to the sky.",
   "type": "origins:prevent_sleep",
   "message": "You can't sleep here!",
   "block_condition": {

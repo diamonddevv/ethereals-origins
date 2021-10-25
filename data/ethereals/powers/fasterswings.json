@@ -1,0 +1,11 @@
+{
+  "name": "Faster Swings",
+  "description": "Your intrepid skill at swinging a sword has taught you the ability to swing faster.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "fast combat speed",
+    "attribute": "minecraft:generic.attack_speed",
+    "operation": "multiply_total",
+    "value": 2
+  }
+}

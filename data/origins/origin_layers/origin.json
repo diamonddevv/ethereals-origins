@@ -3,6 +3,10 @@
   "origins": [
     "ethereals:voidbringer",
     "ethereals:null",
-    "ethereals:skykin"
+    "ethereals:skykin",
+    "ethereals:warling",
+    "ethereals:totemic",
+    "ethereals:humplebumple",
+    "ethereals:test"
   ]
 }

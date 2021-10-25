@@ -1,0 +1,11 @@
+{
+  "name": "Bow Only",
+  "description": "You cannot use Tridents or Crossbows. Furthermore, you cannot use Ender Pearls.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "ethereals:archerdisable"
+        }
+    }
+}

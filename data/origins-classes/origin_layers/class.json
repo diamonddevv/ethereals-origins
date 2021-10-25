@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "origins": [
+    "ethereals:magician",
+    "ethereals:netherologist",
+    "ethereals:enderologist"
+  ]
+}
