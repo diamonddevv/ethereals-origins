@@ -1,7 +1,7 @@
 {
   "hidden": true,
   "type": "origins:action_over_time",
-  "interval": 200,
+  "interval": 1200,
   "entity_action": {
     "type": "origins:change_resource",
     "resource": "ethereals:manacount",

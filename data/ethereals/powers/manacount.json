@@ -1,10 +1,10 @@
 {
   "name": "Mana",
-  "description": "Magic needs a fuel, and that fuel is Mana. Mana is slowly gained overtime, or by killing entities. Different Entities give different amounts of Mana, and this Mana can be used for many things.",
+  "description": "Magic needs a fuel, and that fuel is Mana. Mana is extremely slowly gained overtime, or by quicker by killing entities. Different Entities give different amounts of Mana, and this Mana can be used for many things.",
   "type": "origins:resource",
   "min": 0,
-  "max": 100,
-  "start_value": 25,
+  "max": 500,
+  "start_value": 50,
   "hud_render": {
     "bar_index": 3
   }

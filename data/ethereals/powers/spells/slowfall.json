@@ -1,0 +1,32 @@
+{
+  "name": "Slow-Fall Spell",
+  "description": "You cast a spell, granting you a slow falling effect for 15 seconds. [Sneak + Secondary]",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slow_falling",
+          "duration": 300,
+          "amplifier": 2
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function ethereals:powers/magic/activate/slowfallcircle"
+      }
+    ]
+  },
+  "cooldown": 60,
+  "hud_render": {
+    "bar_index": 3
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "condition": {
+    "type": "origins:sneaking"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "Undying",
-  "description": "Your connection to Totems of Undying caused you to have their power of preventing death using your magic.",
+  "description": "You unleash the power of Totems of Undying hidden inside you and cheat death when you need to, at a high mana cost.",
   "type": "origins:prevent_death",
   "entity_action": {
       "type": "origins:and",
@@ -10,8 +10,8 @@
           },
           {
               "type": "origins:change_resource",
-              "resource": "ethereals:mysticcount",
-              "change": -1
+              "resource": "ethereals:manacount",
+              "change": -75
           },
           {
               "type": "origins:apply_effect",
@@ -37,7 +37,7 @@
   "condition": {
     "type": "origins:resource",
     "resource": "ethereals:manacount",
-    "comparison": ">",
-    "compare_to": 0
+    "comparison": ">=",
+    "compare_to": 75
   }
 }
