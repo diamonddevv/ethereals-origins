@@ -13,6 +13,11 @@
         "type": "origins:add_velocity",
         "z": 2.75,
         "space": "local"
+      },
+      {
+          "type": "origins:change_resource",
+          "resource": "ethereals:manacount",
+          "change": -10
       }
     ]
   },
@@ -24,7 +29,18 @@
     "key": "key.origins.secondary_active"
   },
   "condition": {
-    "type": "origins:sneaking",
-    "inverted": true
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking",
+        "inverted": true
+      },
+      {
+        "type": "origins:resource",
+        "resource": "ethereals:manacount",
+        "comparison": ">=",
+        "compare_to": 10
+      }
+    ]
   }
 }

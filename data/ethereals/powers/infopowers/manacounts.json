@@ -1,0 +1,5 @@
+{
+  "name": "Mana Requirements",
+  "description": "Undying Spell: 75 Mana \nStrikedown Spell: 30 Mana \nStarsplode Spell: 10 Mana \nLaunch Spell: 10 Mana \nSlow-Fall Spell: 10 Mana \nShield Spell: 25 Mana",
+  "type": "origins:simple"
+}

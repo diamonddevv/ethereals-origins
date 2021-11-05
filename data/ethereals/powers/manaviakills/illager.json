@@ -1,0 +1,17 @@
+{
+  "hidden": true,
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "ethereals:manacount",
+    "change": 20
+  },
+  "cooldown": 1,
+  "hud_render": {
+    "should_render": false
+  },
+  "target_condition": {
+    "type": "origins:in_tag",
+    "tag": "ethereals:illager"
+  }
+}

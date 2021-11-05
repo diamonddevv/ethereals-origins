@@ -4,7 +4,7 @@
   "entity_action": {
     "type": "origins:change_resource",
     "resource": "ethereals:manacount",
-    "change": 200
+    "change": 15
   },
   "cooldown": 1,
   "hud_render": {
@@ -12,6 +12,6 @@
   },
   "target_condition": {
     "type": "origins:in_tag",
-    "tag": "ethereals:wither"
+    "tag": "ethereals:nether"
   }
 }

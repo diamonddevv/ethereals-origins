@@ -10,12 +10,17 @@
         "effect": {
           "effect": "minecraft:slow_falling",
           "duration": 300,
-          "amplifier": 2
+          "amplifier": -1
         }
       },
       {
         "type": "origins:execute_command",
         "command": "function ethereals:powers/magic/activate/slowfallcircle"
+      },
+      {
+          "type": "origins:change_resource",
+          "resource": "ethereals:manacount",
+          "change": -10
       }
     ]
   },
@@ -27,6 +32,17 @@
     "key": "key.origins.secondary_active"
   },
   "condition": {
-    "type": "origins:sneaking"
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "ethereals:manacount",
+        "comparison": ">=",
+        "compare_to": 10
+      }
+    ]
   }
 }

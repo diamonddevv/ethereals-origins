@@ -1,12 +1,22 @@
 {
-  "name": "Undying",
-  "description": "You unleash the power of Totems of Undying hidden inside you and cheat death when you need to, at a high mana cost.",
+  "name": "Undying Spell",
+  "description": "The power of Totems of Undying saves you when you nearly die, This uses alot of mana.",
   "type": "origins:prevent_death",
   "entity_action": {
       "type": "origins:and",
       "actions": [
           {
               "type": "origins:clear_effect"
+          },
+          {
+              "type": "origins:execute_command",
+              "command": "particle minecraft:totem_of_undying ~ ~1 ~ 0.2 0.2 0.2 0.1 30 force"
+          },
+          {
+            "type": "origins:play_sound",
+            "sound": "minecraft:item.totem.use",
+            "pitch": 10,
+            "volume": 250
           },
           {
               "type": "origins:change_resource",

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:elder_guardian",
+    "minecraft:piglin_brute",
+    "minecraft:iron_golem"
+  ]
+}
