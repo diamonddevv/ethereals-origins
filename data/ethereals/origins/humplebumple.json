@@ -1,11 +1,11 @@
 {
 	"powers": [
-    
+
 	],
 	"icon": "minecraft:stone_button",
 	"order": 0,
 	"impact": 0,
-	"unchoosable": false,
+	"unchoosable": true,
 	"name": "Humplebumple",
 	"description": "WIP"
 }

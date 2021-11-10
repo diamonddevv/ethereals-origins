@@ -1,0 +1,10 @@
+{
+  "name": "Cursed Health",
+  "description": "Your Totem origins have cursed you to have lower health.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "generic.max_health",
+    "operation": "addition",
+    "value": -10
+  }
+}

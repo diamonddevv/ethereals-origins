@@ -3,7 +3,7 @@
 		"ethereals:testingpower"
 	],
 	"icon": "minecraft:barrier",
-	"unchoosable": false,
+	"unchoosable": true,
 	"order": 0,
 	"impact": 0
 }

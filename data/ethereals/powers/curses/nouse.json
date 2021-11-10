@@ -1,6 +1,6 @@
 {
   "name": "Magic and Mayhem",
-  "description": "You cannot use a wide variety of items, including Potions, Ender Pearls, and Ranged Weapons. They do not work correctly for you.",
+  "description": "As a Magician, certain items, such as Shields, Ranged Weapons and Throwables, have no use for you.",
   "type": "origins:prevent_item_use",
   "item_condition": {
     "type": "origins:ingredient",

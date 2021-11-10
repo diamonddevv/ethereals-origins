@@ -1,0 +1,19 @@
+{
+  "name": "Potency",
+  "description": "Certain Positive potions react with your body and will be cleared instantly.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:strength"
+      },
+      {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:speed"
+      }
+    ]
+  },
+  "interval": 1
+}

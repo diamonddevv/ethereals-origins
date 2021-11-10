@@ -16,9 +16,9 @@
       }
     ]
   },
-  "cooldown": 10,
+  "cooldown": 20,
   "hud_render": {
-    "bar_index": 1
+    "bar_index": 2
   },
   "key": {
     "key": "key.origins.primary_active"

@@ -1,1 +1,8 @@
-{"replace": false,"values": ["strikedownspell:load","starsplodespell:load"]}
+{
+  "replace": false,
+  "values": [
+    "ethereals:misc/loadednotif",
+    "strikedownspell:load",
+    "starsplodespell:load"
+  ]
+}

@@ -16,13 +16,14 @@
 		"ethereals:spells/launchcircle",
 		"ethereals:spells/slowfall",
 		"ethereals:spells/shieldspell",
-		"ethereals:totemicitemprevention",
+		"ethereals:curses/nouse",
+		"ethereals:curses/healthcurse",
+		"ethereals:curses/potency",
 		"ethereals:infopowers/manacounts"
 	],
 	"icon": "minecraft:totem_of_undying",
 	"order": 0,
-	"impact": 0,
-	"unchoosable": false,
+	"impact": 3,
 	"name": "Totemic",
 	"description": "This subspecies of human are renowned sorcerers. They created the first Totem of Undying, however it fused itself with the wielders body. The species live on, utilising the power of the Totem to their advantage."
 }
