@@ -3,6 +3,7 @@
   "values": [
     "ethereals:misc/loadednotif",
     "strikedownspell:load",
-    "starsplodespell:load"
+    "starsplodespell:load",
+    "windblast:load"
   ]
 }

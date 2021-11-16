@@ -9,7 +9,7 @@
       "resource": "ethereals:doubleedgedsword_variable",
       "change": 1
     },
-    "cooldown": 1200,
+    "cooldown": 3600,
     "hud_render": {
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
       "bar_index": 1
@@ -29,9 +29,9 @@
   "damageincrease": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "name": "4x damage taken",
+      "name": "5x damage taken",
       "operation": "multiply_base",
-      "value": 4
+      "value": 5
     },
     "condition": {
       "type": "origins:resource",
@@ -43,9 +43,9 @@
   "damagedealtincrease": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "name": "4x damage dealt",
+      "name": "2.5x damage dealt",
       "operation": "multiply_base",
-      "value": 4
+      "value": 2.5
     },
     "condition": {
       "type": "origins:resource",

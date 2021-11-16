@@ -2,10 +2,13 @@
 	"powers": [
 
 	],
-	"icon": "minecraft:stone_button",
+	"icon": {
+		"item": "minecraft:fishing_rod",
+		"tag": "{Enchantments:[{id:\"minecraft:unbreaking\",id:1}]}"
+	},
 	"order": 0,
 	"impact": 0,
 	"unchoosable": true,
 	"name": "Humplebumple",
-	"description": "WIP"
+	"description": "A Species of Rock Gnome, the Humplebumple are a rare race that specialise in Witchcraft."
 }

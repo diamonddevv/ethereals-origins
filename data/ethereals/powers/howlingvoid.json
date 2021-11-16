@@ -6,23 +6,8 @@
     "type": "origins:and",
     "actions": [
       {
-        "type": "ope:area_of_effect",
-        "action": {
-          "type": "origins:apply_effect",
-          "effects": [
-            {
-              "effect": "minecraft:slowness",
-              "duration": 60,
-              "amplifier": 99
-            },
-            {
-              "effect": "minecraft:blindness",
-              "duration": 100,
-              "amplifier": 4
-            }
-           ],
-           "radius": 12
-        }
+        "type": "origins:execute_command",
+        "command": "function ethereals:powers/voidbringer/activate/howlingvoidactivate"
       },
       {
         "type": "origins:execute_command",
