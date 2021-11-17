@@ -3,11 +3,10 @@
   "description": "You discovered how to avoid most projectile damage!",
     "type": "origins:modify_projectile_damage",
     "damage_condition": {
-        "type": "origins:projectile",
-        "projectile": "minecraft:spectral_arrow"
+        "type": "origins:projectile"
     },
     "modifier": {
-        "operation": "multiply_total",
-        "value": -10
+        "operation": "multiply_base",
+        "value": -0.75
     }
 }

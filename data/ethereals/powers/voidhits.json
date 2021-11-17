@@ -12,7 +12,7 @@
       {
         "type": "origins:play_sound",
         "sound": "minecraft:block.ender_chest.open",
-        "volume": 100,
+        "volume": 1,
         "pitch": 100
       },
       {
