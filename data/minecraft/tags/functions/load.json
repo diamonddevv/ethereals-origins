@@ -4,6 +4,7 @@
     "ethereals:misc/loadednotif",
     "strikedownspell:load",
     "starsplodespell:load",
+    "atomrelocate:load",
     "windblast:load"
   ]
 }

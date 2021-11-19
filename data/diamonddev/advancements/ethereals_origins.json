@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "origins:orb_of_origin"
+    },
+    "title": "Ethereals Origins",
+    "description": [{"text":"Ethereals Origins: An Origins Expansion and Data Pack.","color":"blue"}],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "diamonddev:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

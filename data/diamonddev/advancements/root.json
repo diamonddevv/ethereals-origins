@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"Diamondboy__\"}"
+    },
+    "title": [{"text":"DiamondDev Datapacks","color":"dark_aqua"}],
+    "frame": "challenge",
+    "description": [{"text":"All loaded Datapacks by DiamondDev.\n","color":"aqua"},{"text":"Downloads at:\nDiamondboy4005 on GitHub","color":"blue"}],
+    "background": "minecraft:textures/block/gray_concrete_powder.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

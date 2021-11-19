@@ -1,0 +1,10 @@
+{
+  "name": "Vaision",
+  "description": "Your intrepid sense of vision allows you to see weaker entities through walls, by highliting them with a glow only visible to you.",
+  "type": "origins:entity_glow",
+  "entity_condition": {
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 4
+  }
+}
