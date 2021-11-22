@@ -1,7 +1,8 @@
 {
   "powers": [
     "ethereals:vaision",
-    "ethereals:atomicrelocate"
+    "ethereals:atomicrelocate",
+    "ethereals:halfsoul"
   ],
   "icon": {
     "item": "minecraft:spectral_arrow",

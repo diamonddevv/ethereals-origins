@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "generic.max_health",
+    "operation": "multiply_base",
+    "value": -0.5
+  },
+  "name": "Half-Soul",
+  "description": "Due to unnatural occurrences within your biological system, you have half your max health."
+  }
