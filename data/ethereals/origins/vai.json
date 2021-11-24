@@ -2,6 +2,7 @@
   "powers": [
     "ethereals:vaision",
     "ethereals:atomicrelocate",
+    "ethereals:atomicpresence",
     "ethereals:halfsoul"
   ],
   "icon": {
