@@ -2,15 +2,16 @@
   "powers": [
     "ethereals:vaision",
     "ethereals:atomicrelocate",
-    "ethereals:atomicpresence",
+    "ethereals:timebend",
+    "ethereals:unnatural",
     "ethereals:halfsoul"
   ],
   "icon": {
     "item": "minecraft:spectral_arrow",
     "nbt": "{Enchantments:[{}]}"
   },
-  "order": 0,
-  "impact": 0,
+  "order": 5,
+  "impact": 2,
   "name": "Vai",
   "description": "The Vai Race is one of mystery. They have developed an incredibly strong mind, bending the known logics of physics."
 }

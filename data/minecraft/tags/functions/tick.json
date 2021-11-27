@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "ethereals:boss/originwraith/craftcheck"
+    "ethereals:boss/originwraith/craftcheck",
+    "ethereals:items/guidebook/craftcheck"
   ]
 }

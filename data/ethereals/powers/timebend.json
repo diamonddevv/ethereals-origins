@@ -1,0 +1,26 @@
+{
+  "name": "Chronokinesis",
+  "description": "You bend spacetime, causing things around you to slow and yourself to accelerate. However, messing with time has its dangers.. [Secondary]",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "function ethereals:powers/vai/time/self"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function ethereals:powers/vai/time/else"
+      }
+    ]
+  },
+  "cooldown": 2400,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 9
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

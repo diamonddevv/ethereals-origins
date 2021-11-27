@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_sleep",
+  "block_condition": {
+    "type": "origins:height",
+    "comparison": ">=",
+    "compare_to": 16
+  },
+  "message": "Its too dangerous to rest here.",
+  "name": "Unnaturality",
+  "description": "You believe the forces of nature are against you, hunting you before you cause any collateral damage to existence. As such, you caan only rest when deep underground."
+}

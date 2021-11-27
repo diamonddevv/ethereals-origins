@@ -5,6 +5,6 @@
   "entity_condition": {
     "type": "origins:health",
     "comparison": "<=",
-    "compare_to": 4
+    "compare_to": 10
   }
 }
