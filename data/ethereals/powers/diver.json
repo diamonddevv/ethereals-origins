@@ -1,0 +1,9 @@
+{
+  "name": "Diver",
+  "description": "Due to your penguin roots, you are an adept swimmer.",
+  "type": "origins:modify_swim_speed",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 1.5
+  }
+}

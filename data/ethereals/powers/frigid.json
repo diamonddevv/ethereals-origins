@@ -1,0 +1,45 @@
+{
+  "name": "Frigid Body",
+  "description": "Your body is suited to colder temperatures. As such, when in a cold biome, you will recieve multiple buffs.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0,
+      "duration": 20,
+      "show_icon": false,
+      "show_particles": false,
+      "is_ambient": true
+    },
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0,
+      "duration": 20,
+      "show_icon": false,
+      "show_particles": false,
+      "is_ambient": true
+    },
+    {
+      "effect": "minecraft:resistance",
+      "amplifier": 0,
+      "duration": 20,
+      "show_icon": false,
+      "show_particles": false,
+      "is_ambient": true
+    }
+  ],
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:and",
+      "conditions": {
+          "type": "origins:temperature",
+          "comparison": "<=",
+          "compare_to": 0.5
+        }
+    }
+  }
+}

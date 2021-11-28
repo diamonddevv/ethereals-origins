@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "ethereals:diver",
+    "ethereals:waterbreathing",
+    "ethereals:frigid",
+    "ethereals:riptide",
+    "ethereals:pescatarian",
+    "ethereals:flightless"
+  ],
+  "icon": "minecraft:ice",
+  "order": 3,
+  "impact": 1,
+  "name": "Rixel",
+  "description": "The Rixel are a subspecies of penguin that evolved to take on a more Humanoid form. These Penguins share many attributes with Penguins, however were outcast from their colony."
+}

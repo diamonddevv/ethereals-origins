@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "ethereals:misc/loadednotif",
-    "etherals:misc/init",
+    "ethereals:misc/init",
     "strikedownspell:load",
     "starsplodespell:load",
     "atomrelocate:load",

@@ -1,0 +1,34 @@
+{
+  "name": "Pescatarian",
+  "description": "You cannot digest any meat except fish. You can still eat plants, though.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "ethereals:meat_nofish"
+            }
+          },
+          {
+            "type": "origins:meat"
+          }
+        ]
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}
