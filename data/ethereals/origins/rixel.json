@@ -5,7 +5,8 @@
     "ethereals:frigid",
     "ethereals:riptide",
     "ethereals:pescatarian",
-    "ethereals:flightless"
+    "ethereals:flightless",
+    "ethereals:flightless_rcprevent"
   ],
   "icon": "minecraft:ice",
   "order": 3,
