@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stray_spawn_egg",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "The Orb?",
+    "description": [{"text":"Obtain the Wraith of Origin Spawn Egg. Good Luck...","color":"green"}]
+  },
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "no": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
