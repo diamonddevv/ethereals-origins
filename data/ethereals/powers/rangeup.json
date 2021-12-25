@@ -5,7 +5,7 @@
   "modifier":{
     "name": "extra damage from projectiles",
     "operation": "multiply_total",
-    "value": 2
+    "value": 1
   },
   "damage_condition": {
     "type": "origins:projectile"
