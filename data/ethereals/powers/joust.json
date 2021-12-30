@@ -10,7 +10,7 @@
         "effect": {
           "effect": "minecraft:strength",
           "duration": 60,
-          "amplifier": 2
+          "amplifier": 1
         }
       },
       {
@@ -29,7 +29,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "ethereals:swords"
+            "tag": "fabric:swords"
           }
         }
       },
@@ -39,7 +39,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "tag": "ethereals:swords"
+            "tag": "fabric:swords"
           }
         }
       }

@@ -12,11 +12,6 @@
             "resource": "ethereals:comboes",
             "change": -10
           }
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.blaze.hurt",
-          "volume": 1
         }
       ]
     },
@@ -24,7 +19,7 @@
       "type": "origins:resource",
       "resource": "ethereals:comboes",
       "comparison": "==",
-      "compare_to": 10
+      "compare_to": 20
     },
     "cooldown": 1,
     "hud_render": {
