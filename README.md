@@ -5,7 +5,6 @@ The Official Repository for the Ethereals Origins Project, by Diamondboy
 
 - Minecraft 1.16.5+
 - Origins 0.7.3+
-- Origins Power Expansion 1.4.0+
 
 
 https://www.github.com/diamondboy4005/ethereals-origins

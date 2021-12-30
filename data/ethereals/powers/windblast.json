@@ -1,6 +1,6 @@
 {
   "name": "Windblast",
-  "description": "You can blast your opponents with a powerful gust of air that travels 25 blocks. This blast is explosive. [Primary]",
+  "description": "You can blast your opponents with a powerful gust of air that travels 25 blocks. This blast has a strange effect. [Primary]",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:execute_command",

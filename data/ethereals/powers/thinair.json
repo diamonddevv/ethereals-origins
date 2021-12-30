@@ -1,6 +1,6 @@
 {
   "name": "Thin Air",
-  "description": "You cannot go to an altitude of 200 blocks. Trying to do so will cause you to suffocate and die, because the air is too thin.",
+  "description": "You cannot go to an altitude of 300 blocks. Trying to do so will cause you to suffocate and die, because the air is too thin.",
   "type": "origins:damage_over_time",
   "interval": 10,
   "damage": 4,
@@ -12,7 +12,7 @@
     "block_condition": {
       "type": "origins:height",
       "comparison": ">=",
-      "compare_to": 200
+      "compare_to": 300
     }
   }
 }

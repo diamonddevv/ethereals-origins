@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "origins:orb_of_origin",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "The Orb.",
+    "description": [{"text":"Kill the Wraith of Origin","color":"dark_purple"}],
+    "frame": "challenge"
+  },
+  "parent": "ethereals:get_wraith_egg",
+  "criteria": {
+    "killwraith": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+          "entity": {
+              "nbt": "{Tags:[\"Wraith of Origin\"]}"
+          }
+      }
+    }
+  }
+}
