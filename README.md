@@ -1,13 +1,19 @@
 # Ethereals Origins
-The Official Repository for the Ethereals Origins Project, by Diamondboy
+The Official Repository for the Ethereals Origins datapack, by DiamondDev
+
+https://www.github.com/diamondboy4005/ethereals-origins
 
 # Dependencies
 
 - Minecraft 1.16.5+
 - Origins 0.7.3+
+- Origins Classes 1.1.1+
 
+# Ethereals: Extras
 
-https://www.github.com/diamondboy4005/ethereals-origins
+Ethereals: Extras is a 1.18.1+ Origins Datapack that adds on to Ethereals Origins. Check it out here:
+
+https://www.github.com/diamondboy4005/ethereals-extra
 
 
 # Credits
