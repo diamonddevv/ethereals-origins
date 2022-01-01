@@ -11,13 +11,22 @@
         "continuous": true
     },
     "condition": {
-      "type": "origins:in_block",
-      "block_condition": {
-        "type": "origins:height",
-        "comparison": "<=",
-        "compare_to": 10
-      }
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:in_block",
+          "block_condition": {
+            "type": "origins:height",
+            "comparison": "<=",
+            "compare_to": 10
+          }
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end"
+        }
+      ]
     },
     "name": "Void Boost",
-    "description": "Once on the void's edge, you can focus energy into launching out again. [Primary]"
+    "description": "Once at the edge of the End Void, you can launch yourself away. [Primary]"
 }

@@ -26,13 +26,22 @@
     }
   ],
   "condition": {
-    "type": "origins:in_block",
-    "block_condition": {
-      "type": "origins:height",
-      "comparison": "<=",
-      "compare_to": 1
-    }
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:in_block",
+        "block_condition": {
+          "type": "origins:height",
+          "comparison": "<=",
+          "compare_to": 1
+        }
+      },
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_end"
+      }
+    ]
   },
   "name": "Voidwalker",
-  "description": "The void will not accept you. You hover at its edge instead of falling in. In fact, this makes you have regeneration."
+  "description": "The Void of the End has a mystical connection wih you. As such, it rejects you from falling in and hovers you at its edge."
 }

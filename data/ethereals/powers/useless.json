@@ -3,7 +3,7 @@
     "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "tag": "ethereals:rangenullaffected"
+          "tag": "ethereals:voiduseless"
         }
     },
     "name": "Useless",
