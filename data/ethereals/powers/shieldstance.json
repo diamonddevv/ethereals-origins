@@ -9,8 +9,8 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:resistance",
-        "duration": 100,
-        "amplifier": 4
+        "duration": 40,
+        "amplifier": 1
       }
     }
   },

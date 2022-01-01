@@ -9,12 +9,6 @@
           "type": "origins:change_resource",
           "resource": "ethereals:comboes",
           "change": 1
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.blaze.hurt",
-          "volume": 1,
-          "pitch": 150
         }
       ]
     },
