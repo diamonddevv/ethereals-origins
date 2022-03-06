@@ -1,19 +1,14 @@
 # Ethereals Origins
-The Official Repository for the Ethereals Origins datapack, by DiamondDev
-
-https://www.github.com/diamondboy4005/ethereals-origins
+The Official Repository for the Ethereals Origins Project, by Diamondboy
 
 # Dependencies
 
 - Minecraft 1.16.5+
 - Origins 0.7.3+
-- Origins Classes 1.1.1+
+- Origins Power Expansion 1.4.0+
 
-# Ethereals: Extras
 
-Ethereals: Extras is a 1.18.1+ Origins Datapack that adds on to Ethereals Origins. Check it out here:
-
-https://www.github.com/diamondboy4005/ethereals-extra
+https://www.github.com/diamondboy4005/ethereals-origins
 
 
 # Credits

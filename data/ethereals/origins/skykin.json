@@ -2,6 +2,7 @@
 	"powers": [
 		"ethereals:airswim",
 		"ethereals:stayinair",
+		"ethereals:aerialaffinity",
 		"ethereals:windblast",
 		"ethereals:skykinsupport",
 		"ethereals:fastflight",

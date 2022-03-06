@@ -1,9 +1,0 @@
-{
-	"powers": [
-		"ethereals:testingpower"
-	],
-	"icon": "minecraft:barrier",
-	"unchoosable": true,
-	"order": 0,
-	"impact": 0
-}

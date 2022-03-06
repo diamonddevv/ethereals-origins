@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:mining_speed 3.2"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:mining_speed 1"
+    },
+    "execute_chosen_when_orb": true
+}

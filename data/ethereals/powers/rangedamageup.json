@@ -1,13 +1,13 @@
 {
   "name": "Pierced",
-  "description": "You aren't the best at taking a long ranged hit. You take significantly more projectile damage.",
+  "description": "You aren't the best at taking a long ranged hit. You take twice as much projectile damage.",
   "type": "origins:modify_damage_taken",
   "damage_condition": {
     "type": "origins:projectile"
   },
   "modifier": {
-    "name": "2.5x Projectile Damage",
-    "operation": "multiply_total",
-    "value": 1.5
+    "name": "2x Projectile Damage",
+    "operation": "multiply_base",
+    "value": 2
   }
 }

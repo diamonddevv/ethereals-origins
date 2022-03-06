@@ -3,8 +3,18 @@
   "description": "Your intrepid sense of vision allows you to see weaker entities through walls, by highlighting them with a glow only visible to you.",
   "type": "origins:entity_glow",
   "entity_condition": {
-    "type": "origins:health",
-    "comparison": "<=",
-    "compare_to": 10
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 8
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "ethereals:non_living",
+        "inverted": true
+      }
+    ]
   }
 }

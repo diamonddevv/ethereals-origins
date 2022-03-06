@@ -4,7 +4,7 @@
   "type": "origins:modify_damage_dealt",
   "modifier": {
     "name": "0.5x damage dealt",
-    "operation": "multiply_total",
-    "value": -0.5
+    "operation": "multiply_base",
+    "value": 0.5
   }
 }

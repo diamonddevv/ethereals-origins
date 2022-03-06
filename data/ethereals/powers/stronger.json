@@ -3,9 +3,9 @@
   "description": "You excel at dealing higher amounts of damage.",
   "type": "origins:attribute",
   "modifier": {
-    "name": "1.75x damage",
+    "name": "2.2x damage",
     "attribute": "minecraft:generic.attack_damage",
     "operation": "multiply_total",
-    "value": 0.75
+    "value": 2.2
   }
 }

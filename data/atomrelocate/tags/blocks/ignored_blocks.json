@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#atomrelocate:amplifying_blocks",
+    "#atomrelocate:cancelling_blocks",
+    "#atomrelocate:supressing_blocks",
+    "minecraft:air",
+    "minecraft:glass",
+    "minecraft:glass_pane",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "minecraft:water"
+    ]
+  }
