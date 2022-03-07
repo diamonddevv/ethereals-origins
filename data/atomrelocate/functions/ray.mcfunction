@@ -7,7 +7,6 @@ execute unless block ~ ~ ~ #atomrelocate:ignored_blocks run function atomrelocat
 execute if block ~ ~ ~ #atomrelocate:amplifying_blocks if score #amplified relocate matches 5 run function atomrelocate:hit_block
 execute if block ~ ~ ~ #atomrelocate:amplifying_blocks run function atomrelocate:amplify_ray
 execute if block ~ ~ ~ #atomrelocate:cancelling_blocks run function atomrelocate:cancel_ray
-execute if block ~ ~ ~ #atomrelocate:supressing run function atomrelocate:supress_ray
 
 ## Continue/Finish Raycast
 scoreboard players add #distance relocate 1
