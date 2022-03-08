@@ -1,2 +1,1 @@
 execute if score #hit relocate matches 0 positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] unless entity @s[dx=0,type=#atomrelocate:ignored_entities] positioned ~0.95 ~0.95 ~0.95 run function atomrelocate:hit_entity
-execute if score #hit relocate matches 0 positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] if entity @s[dx=0,type=#atomrelocate:delaying_entities] positioned ~0.95 ~0.95 ~0.95 run function atomrelocate:snowball_hit_entity

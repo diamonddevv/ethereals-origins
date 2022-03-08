@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#ethereals:non_living",
-    "#atomrelocate:delaying_entities"
+    "#ethereals:non_living"
     ]
   }
